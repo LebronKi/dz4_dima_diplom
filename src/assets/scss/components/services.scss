@@ -1,0 +1,49 @@
+h2{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 24px;
+line-height: 170%;
+color: #056088;
+text-align: center;
+}
+.services__subtitle{
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+text-align: center;
+color: #434343;
+margin: 16px 0 32px 0;
+}
+.services__row{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+.services-item {
+padding: 27px 37px 37px;
+max-width: 310px;
+flex: 1 0 15%;
+    &:hover{
+    background:url('../imgs/item_build.png') no-repeat;
+    color: #fff;
+    }    
+}
+.services-item:first-child{
+background:url('../imgs/item_build.png') no-repeat;
+color:#fff;
+}
+.services__title{
+margin: 23px 0 16px 0;
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 20px;
+line-height: 170%;
+}
+.services__discription{
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+max-width: 237px;
+}
