@@ -1,0 +1,33 @@
+.works{
+    font-family: 'Poppins';
+    background:url('../imgs/works.png') no-repeat;
+    background-size: cover;
+}
+.works__title{
+    text-align: center;
+    margin: 173px 0 0 0;
+}
+h4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 170%;
+    margin: 173px 0 0px 0;
+    color: #fff;
+}
+.works__text{
+text-align: center;
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+text-align: center;
+color: #FFFFFF;
+margin: 16px 0 32px 0;
+}
+.works__grid{
+    border: 1px solid red;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto 200px auto auto auto;
+    grid-template-rows: 118px 60px 78px 21px auto;
+}

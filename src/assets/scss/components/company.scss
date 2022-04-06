@@ -4,20 +4,9 @@
     flex-wrap: wrap;
   
 }
-
-
-.company__grid{
-    border: 1px solid red;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-
+.company__gallery{
+    border: 1px solid rgb(105, 20, 218);
 }
-.item4{
-    grid-row:  2 / 4 ;
-    grid-column: 2 /3;
-
-} 
 .company__our{
     margin: 0 0 0 130px;
 }
