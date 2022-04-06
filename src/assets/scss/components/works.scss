@@ -2,11 +2,13 @@
     font-family: 'Poppins';
     background:url('../imgs/works.png') no-repeat;
     background-size: cover;
-    height: 1414px;
+    max-height: 1414px;
+    
+    
 }
 .works__title{
     text-align: center;
-    margin: 173px 0 0 0;
+    margin: 173px 0  0;
 }
 h4{
     text-align: center;
@@ -26,7 +28,6 @@ color: #FFFFFF;
 margin: 16px 0 32px 0;
 }
 .works__grid{
-    border: 1px solid red;
     display: grid;
-    grid-template-columns: 1fr 200px 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto ;
 }
