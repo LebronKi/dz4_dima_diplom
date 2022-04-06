@@ -2,6 +2,7 @@
     font-family: 'Poppins';
     background:url('../imgs/works.png') no-repeat;
     background-size: cover;
+    height: 1414px;
 }
 .works__title{
     text-align: center;
@@ -27,7 +28,5 @@ margin: 16px 0 32px 0;
 .works__grid{
     border: 1px solid red;
     display: grid;
-    gap: 20px;
-    grid-template-columns: auto 200px auto auto auto;
-    grid-template-rows: 118px 60px 78px 21px auto;
+    grid-template-columns: 1fr 200px 1fr 1fr 1fr;
 }
