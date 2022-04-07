@@ -1,0 +1,47 @@
+.want{
+    margin: 96px 0 100px ;
+}  
+.want__container{
+    background: url('../imgs/want.png') no-repeat;
+    background-size: cover;
+}
+.want__title{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 52px;
+line-height: 78px;
+text-align: center;
+color: #FFFFFF;
+max-width: 740px;
+margin: 0 auto;
+padding: 55px 0 16px 0;
+}
+.want__text{
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+line-height: 170%;
+text-align: center;
+color: #FFFFFF;
+max-width: 517px;
+margin: 0 auto 32px;
+}
+.want__form{
+  text-align: center;
+padding: 0 0 55px 0;
+
+}
+.want__input{
+    padding: 20px 150px;
+}
+.want__btn{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    color: #fff;
+    border: none;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    padding:18px 35px;
+    margin: 0 0 0 -6px;
+}
