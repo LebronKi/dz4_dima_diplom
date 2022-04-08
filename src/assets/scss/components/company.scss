@@ -78,6 +78,11 @@ margin: 0 62px 0 0;
     line-height: 170%;
     color:#fff;
     background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    &:active{
+        position: relative;
+        top: 2px;
+        transform:scale(0.95);
+    }
 }
 @media (min-width:320px) and (max-width:425px){
     .company__logo{

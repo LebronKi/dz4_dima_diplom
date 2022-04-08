@@ -1,20 +1,9 @@
+include ../mixins/services-item.pug
 .services
     h2 Our services
     .services__subtitle Our services include building new buildings and renovating old buildings
-    .services__row  
-        .services-item 
-            img(src="./assets/imgs/pencil.png", alt="").services__img
-            p.services__title Design building/house
-            p.services__discription We have an architect for design new buildings
-        .services-item 
-            img(src="./assets/imgs/sofa.png", alt="").services__img
-            p.services__title Interior Designe
-            p.services__discription We have an interior designer for design your perfect inside house
-        .services-item 
-            img(src="./assets/imgs/skyskr.png", alt="").services__img
-            p.services__title Build from scratch
-            p.services__discription We have an contractor for build new building from scratch
-        .services-item 
-            img(src="./assets/imgs/construction.png", alt="").services__img
-            p.services__title Renovation
-            p.services__discription We can also renovate or rebuilds new buildings/house
+    .services__row
+        +services-item('./assets/imgs/pencil.png','Design building/house','We have an architect for design new buildings')
+        +services-item('./assets/imgs/sofa.png','Interior Design','We have an interior designer for design your perfect inside house')
+        +services-item('./assets/imgs/skyskr.png','Build from scratch','We have an contractor for build new building from scratch')
+        +services-item('./assets/imgs/construction.png','Renovation','We can also renovate or rebuilds new buildings/house')
