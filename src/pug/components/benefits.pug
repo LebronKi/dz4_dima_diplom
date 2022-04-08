@@ -1,16 +1,9 @@
+include ../mixins/benefits-item.pug
 .benefits
-    h3 Our benefits
-    .benefits__subtitle Here our benefits if you collaboration with our team
-    .benefits__row
-        .benefits-item
-            img(src="./assets/imgs/around.png", alt="").benefuts__img
-            .benefuts__title Flexible time
-            .benefuts__text We work wherever you ready to builds. Work fast and profesional
-        .benefits-item2
-            img(src="./assets/imgs/around.png", alt="").benefuts__img
-            .benefuts__title Customizable designe
-            .benefuts__text We work wherever you ready to builds. Work fast and profesional
-        .benefits-item3
-            img(src="./assets/imgs/around.png", alt="").benefuts__img
-            .benefuts__title Negotiable price
-            .benefuts__text We work wherever you ready to builds. Work fast and profesional
+    .benefits__container.container
+        h3 Our benefits
+        .benefits__subtitle Here our benefits if you collaboration with our team
+        .benefits__row
+            +benefits-item('./assets/imgs/around.png','Flexible time','We work wherever you ready to builds. Work fast and profesional')
+            +benefits-item('./assets/imgs/around.png','Customizable design','We can design your buildings, but we open if you want to customize your design or if you have architect')
+            +benefits-item('./assets/imgs/around.png','Negotiable price','Yes, we’re open to negotiate the price with you, and we will give the best price for our lovely clients')

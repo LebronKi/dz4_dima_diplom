@@ -1,5 +1,5 @@
 .benefits{
-    padding: 100px 0 346px 0;
+    margin: 63px 0 272px 0;
     position: relative;
 }
 h3{
@@ -13,44 +13,42 @@ h3{
     margin: 0 0 16px 0;
 }
 .benefits__subtitle{
-max-width: 348px;
-margin: 0 auto;
-font-family: 'Poppins';
-font-weight: 400;
-font-size: 16px;
-line-height: 180%;
-text-align: center;
-color: #434343;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: center;
+    color: #434343;
+    max-width: 348px;
+    margin: 0 auto;
 }
 .benefits__row{
+    position:absolute;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    position: absolute;
-    top: 320px;
-    left: 45px;
-    margin: 0 70px;
+    top: 147px;
 }
 .benefits-item,
 .benefits-item2,
 .benefits-item3{
-    flex: 1 0 calc((100% - 40px) / 3);
-    max-width: 420px;
+    min-width: 420px;
     text-align: center;
-   
+    padding: 54px 0 42px 0;
+    &:hover{
+        transition: all ease 0.8s;
+        transform:translate(0 , 20px);
+    }
 }
 .benefits-item{
     background: url('../imgs/house_benefits.jpg');
 }
-
 .benefits-item2{
     background: url('../imgs/hall_benefits.jpg');
 }
 .benefits-item3{
     background: url('../imgs/town_benefits.jpg');
-}
-.benefuts__img{
-    margin: 54px 0 0 0;
 }
 .benefuts__title{
 margin: 34px 0 16px 0;
@@ -69,5 +67,4 @@ text-align: center;
 color: #FFFFFF;
 max-width: 348px;
 margin: 0 auto;
-padding: 0 0 42px 0;
 }
