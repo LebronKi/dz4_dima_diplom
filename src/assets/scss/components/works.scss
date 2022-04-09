@@ -89,12 +89,13 @@ grid-template-rows: 277px 163px;
     font-size: 24px;
     line-height: 170%;
     color: #056088;
+    margin: 0 0 16px 0;
 }
 .works__discription{
     max-width: 195px;
-    margin: 16px 0 32px 0;
 }
 .works__button{
+    margin: 32px 0 0 0;
     padding:15px 25px;
     border:none;
     font-family: 'Poppins';
@@ -138,5 +139,213 @@ color: #FFFFFF;
 border-radius: 50%;
 position: absolute;
 top: -41px;
- left: -40px;
+left: -40px;
+}
+@media (min-width:320px) and (max-width:425px){
+    .works{
+        margin: 1010px 0 0 0;
+    }
+    h4{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .works__subtitle{
+        font-size: 18px;
+    }
+    .works__left{
+        display:grid;
+        margin: 0 auto;
+    }
+    .works__middle,
+    .works__right,
+    .works__img,
+    .works__image{
+        display:none;
+    }
+    .works__btn{
+        display: flex;
+        margin: 0 auto;
+    }
+    .works__block{
+    text-align: center;
+    margin: 0 auto;   
+    }
+    .works__discription{
+    margin: 0 auto;
+    }
+}
+@media (min-width:426px) and (max-width:641px){
+    .works{
+        margin: 910px 0 0 0;
+    }
+    h4{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .works__subtitle{
+        font-size: 18px;
+    }
+    .works__left{
+        display:grid;
+        margin: 0 auto;
+    }
+    .works__right{
+        display:grid;
+        margin: 0 auto;
+    }
+    .works__middle,
+    .works__img,
+    .works__image{
+        display:none;
+    }
+    .works__btn{
+        display: flex;
+        margin: 0 auto;
+    }
+    .works__block{
+    text-align: center;
+    margin: 0 auto;   
+    }
+    .works__discription{
+    margin: 0 auto;
+    }
+}
+@media (min-width:642px) and (max-width:768px){
+    .works{
+        margin: 850px 0 0 0;
+    }
+    h4{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .works__subtitle{
+        font-size: 18px;
+    }
+    .works__left{
+        display:grid;
+        margin: 0 auto;
+    }
+    .works__middle{
+        display:grid;
+        margin: 0 auto;
+    }
+    .works__right{
+        display:grid;
+        margin: 0 auto;
+    }
+    .works__img{
+        padding: 15px 0;
+        max-width: 620px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .works__image{
+        display:none;
+    }
+    .works__btn{
+        display: flex;
+        margin: 0 auto;
+    }
+    .works__block{
+    text-align: center;
+    margin: 0 auto;   
+    }
+    .works__discription{
+    margin: 0 auto;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .works{
+        margin: 850px 0 0 0;
+    }
+    h4{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .works__subtitle{
+        font-size: 18px;
+    }
+    .works__grid{
+        display: flex;
+        justify-content: center;
+    }
+    .works__left{
+        display:grid;
+        margin: 0;
+    }
+    .works__middle{
+        display:grid;
+        margin: 0;
+    }
+    .works__right{
+        display:grid;
+        margin: 0 auto;
+    }
+    .works__img{
+        padding: 15px 0;
+        max-width: 760px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .works__image{
+        margin:0 auto;
+        img{
+            max-width: 762px;
+            border: 2px solid #fff;
+        };
+    }
+    .works__btn{
+        display: flex;
+        margin: 0 auto;
+    }
+    .works__block{
+    text-align: center;
+    margin: 0 auto;   
+    }
+    .works__discription{
+    margin: 0 auto;
+    }
+    .works__slide{
+        top: 90px;
+    }
+}
+@media (min-width:1025px) and (max-width:1299px){
+    .works{
+        margin: 550px 0 0 0;
+    }
+    h4{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .works__subtitle{
+        font-size: 18px;
+    }
+    .works__grid{
+        display: flex;
+        justify-content: center;
+    }
+    .works__img{
+        padding: 15px 0;
+        max-width: 760px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .works__image{
+        margin:0 auto;
+        img{
+            max-width:100%;
+            border: 2px solid #fff;
+        };
+    }
+    .works__btn{
+        display: flex;
+        margin: 0 auto;
+    }
+    .works__block{
+    text-align: center;
+    margin: 0 auto;   
+    }
+    .works__discription{
+    margin: 0 auto;
+    }
 }
