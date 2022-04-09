@@ -23,7 +23,7 @@ flex-wrap: wrap;
 gap: 20px;
 margin: 32px 0 0 0;
 }
-.services-item {
+.services-item{
     padding: 27px 27px 40px 40px;
     flex: 1 0 18%;
     &:hover{
@@ -51,11 +51,66 @@ line-height: 170%;
 max-width: 237px;
 }
 @media (min-width:320px) and (max-width:425px){
+    h2{
+        text-decoration: underline;
+    }
     .services__row{
      flex-direction: column;
      display: flex;
     }
     .services-item{
+        margin: 0 auto;
+    }
+}
+@media (min-width:426px) and (max-width:768px){
+    .services__row{
+     display: flex;
+    flex-direction: column;
+    
+    }
+    .services-item{
+        max-width: 310px;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .services__subtitle{
+        font-size: 18px;
+    }
+}
+@media (min-width:769px) and (max-width:822px){
+    h2{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .services__subtitle{
+        font-size: 18px;
+    }
+    .services__row{
+     display: flex;
+     flex-direction: column;
+    }
+    .services-item{
+        max-width: 310px;
+        margin: 0 auto;
+    }
+}
+@media (min-width:823px) and (max-width:1299px){
+    h2{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .services__subtitle{
+        font-size: 18px;
+    }
+    .services__row{
+     display: flex;
+     flex-wrap: wrap;
+    }
+    .services-item{
+        max-width: 310px;
         margin: 0 auto;
     }
 }

@@ -31,8 +31,8 @@ h3{
     top: 147px;
 }
 .benefits-item,
-.benefits-item2,
-.benefits-item3{
+.benefits-item-second,
+.benefits-item-third{
     min-width: 420px;
     text-align: center;
     padding: 54px 0 42px 0;
@@ -44,10 +44,10 @@ h3{
 .benefits-item{
     background: url('../imgs/house_benefits.jpg');
 }
-.benefits-item2{
+.benefits-item-second{
     background: url('../imgs/hall_benefits.jpg');
 }
-.benefits-item3{
+.benefits-item-third{
     background: url('../imgs/town_benefits.jpg');
 }
 .benefuts__title{
@@ -67,4 +67,95 @@ text-align: center;
 color: #FFFFFF;
 max-width: 348px;
 margin: 0 auto;
+}
+@media (min-width:320px) and (max-width:425px) {
+    h3{
+        text-decoration: underline;
+    }
+    .benefits__row{
+       gap: 7px;
+
+    }
+    .benefits-item,
+    .benefits-item-second,
+    .benefits-item-third{
+        min-width: 310px;
+        margin: 0 auto;
+        border: 5px solid  rgb(14, 152, 231);
+        &:hover{
+            transition:none;
+            transform:none;
+        }
+    }
+}
+@media (min-width:426px) and (max-width:869px){
+    h3{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .benefits__subtitle{
+        font-size:18px
+    }
+    .benefits__row{
+        gap: 10px;
+ 
+     }
+     .benefits-item,
+     .benefits-item-second,
+     .benefits-item-third{
+         min-width: 350px;
+         margin: 0 auto;
+         border: 5px solid rgb(14, 152, 231);
+         &:hover{
+             transition:none;
+             transform:none;
+         }
+     }
+}
+@media (min-width:870px) and (max-width:1024px){
+    h3{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .benefits__subtitle{
+        font-size: 18px;
+    }
+    .benefits__row{
+        gap: 10px;
+ 
+     }
+     .benefits-item,
+     .benefits-item-second,
+     .benefits-item-third{
+         min-width: 420px;
+         margin: 0 auto;
+         border: 5px solid rgb(14, 152, 231);
+         &:hover{
+             transition:none;
+             transform:none;
+         }
+     }
+}
+@media (min-width:1025px) and (max-width:1299px){
+    h3{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .benefits__subtitle{
+        font-size: 18px;
+    }
+    .benefits__row{
+        gap: 10px;
+    }
+     .benefits-item,
+     .benefits-item-second,
+     .benefits-item-third{
+         min-width: 420px;
+         margin: 0 auto;
+         border: 5px solid rgb(255, 255, 255);
+         &:hover{
+             transition:none;
+             transform:none;
+         }
+    }
 }
