@@ -44,4 +44,31 @@ padding: 0 0 55px 0;
     background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
     padding:18px 35px;
     margin: 0 0 0 -6px;
+    &:active{
+        position: relative;
+        top: 2px;
+    }
+}
+@media (min-width:320px) and (max-width:425px){
+    .want__title{
+        font-size: 25px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .want__text{
+        font-size: 15px;
+    }
+    .want__input{
+        padding: 20px 20px;
+    }
+}
+@media (min-width:426px) and (max-width:768px){
+    .want__title{
+        font-size: 38px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .want__input{
+        padding: 20px 45px;
+    }
 }
