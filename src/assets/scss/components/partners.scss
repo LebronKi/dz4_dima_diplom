@@ -47,3 +47,123 @@ border-radius: 100%;
     padding: 32px 67px 39px 53px;
     text-align: left;
 }
+@media (min-width:320px) and (max-width:425px) {
+    .partners{
+        margin: -90px 0 0 0;
+    }
+    h5{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .partners__header{
+        display: block;
+        text-align: center;
+    }
+    .partners__list{
+        display: block;
+        text-align: center;
+        margin:0;
+        li{
+            margin: 25px 0;
+        }
+    }
+    .partners__logo,
+    .partners__text{
+        display: none;
+    }
+    .partners__img{
+        img{
+            max-width: 100%;
+        }
+    }
+}
+@media (min-width:426px) and (max-width:768px) {
+    .partners{
+        margin: -90px 0 0 0;
+    }
+    h5{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .partners__header{
+        display: block;
+        text-align: center;
+    }
+    .partners__list{
+        display: block;
+        text-align: center;
+        margin:0;
+        li{
+            margin: 25px 0;
+        }
+    }
+    .partners__logo,
+    .partners__text{
+        display: none;
+    }
+    .partners__img{
+        img{
+            max-width: 100%;
+        }
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .partners{
+        margin: -90px 0 0 0;
+    }
+    h5{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .partners__header{
+        display: block;
+        text-align: center;
+    }
+    .partners__list{
+        display: block;
+        text-align: center;
+        margin:0;
+        li{
+            margin: 25px 0;
+        }
+    }
+    .partners__logo,
+    .partners__text{
+        display: none;
+    }
+    .partners__img{
+        img{
+            max-width: 100%;
+        }
+    }
+}
+@media (min-width:1025px) and (max-width:1180px) {
+    .partners{
+        margin: -90px 0 0 0;
+    }
+    h5{
+        font-size: 30px;
+        text-decoration: underline;
+        margin: 0 0 20px 0;
+    }
+    .partners__header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .partners__logo,
+    .partners__text{
+        display: none;
+    }
+    .partners__img{
+        img{
+            max-width: 100%;
+        }
+    }
+}
+@media (min-width:1181px) and (max-width:1299px) {
+    .partners__logo,
+    .partners__text{
+        display: none;
+    }
+}
