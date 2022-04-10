@@ -46,6 +46,10 @@ grid-template-rows: 277px 163px;
 }
 .works__kitchen{
     grid-column: 2 / 3;
+    &:hover{
+        transform: scale(1.1);
+        transition: all ease 0.5s;
+    }
 }
 .works__right{
     gap: 20px;
@@ -54,14 +58,46 @@ grid-template-rows: 277px 163px;
     grid-template-rows: 118px 118px 184px;
 }
 .works__table{
-    grid-column:2/ 3 ;
+    grid-column:2/ 3;
+    &:hover{
+        transform:translate(-20px);
+        transition: all ease 0.5s; 
+    }   
 }
 .works__flowers{
     grid-column: 1 / 3 ; 
+    &:hover{
+        transform:scale(1.2);
+        transition: all ease 0.5s; 
+    }
 }
 .works__line{
     text-align: right;
     margin: 0 0 100px 0;
+}
+.works__house:hover{
+    transform: translate(20px);
+    transition: all ease 0.5s;
+}
+.works__door:hover{
+    transform: translate(20px);
+    transition: all ease 0.5s;
+}
+.works__tower:hover{
+    transform: scale(1.18);
+    transition: all ease 0.5s;  
+}
+.works__swimming:hover{
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
+.works__hall:hover{
+    transform:translate(0,-20px);
+    transition: all ease 0.5s; 
+}
+.works__window:hover{
+    transform:translate(-20px);
+    transition: all ease 0.5s; 
 }
 .works__btn{
     margin: 0 0 0 39px;
@@ -87,7 +123,16 @@ grid-template-rows: 277px 163px;
 .works__block{
     padding: 51px 32px;
     background: #fff;
-    max-width: 330px;
+    position: relative;
+    &:after{
+        content: '';
+        position: absolute;
+        bottom: -121px;
+        right: 0px;
+        min-width: 24px;
+        min-height: 122px;
+        background:#fff;
+    }
 }
 .works__queston{
     font-family: 'Poppins';
@@ -166,6 +211,9 @@ left: -40px;
     .works__left{
         display:grid;
         margin: 0 auto;
+        img:hover{
+            transform:none;
+        }
     }
     .works__middle,
     .works__right,
@@ -199,10 +247,16 @@ left: -40px;
     .works__left{
         display:grid;
         margin: 0 auto;
+        img:hover{
+            transform:none;
+        }
     }
     .works__right{
         display:grid;
         margin: 0 auto;
+        img:hover{
+            transform:none;
+        }
     }
     .works__middle,
     .works__img,
@@ -235,14 +289,23 @@ left: -40px;
     .works__left{
         display:grid;
         margin: 0 auto;
+        img:hover{
+            transform:none;
+        }
     }
     .works__middle{
         display:grid;
         margin: 0 auto;
+        img:hover{
+            transform:none;
+        }
     }
     .works__right{
         display:grid;
         margin: 0 auto;
+        img:hover{
+            transform:none;
+        }
     }
     .works__img{
         padding: 15px 0;
