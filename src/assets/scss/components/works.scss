@@ -73,10 +73,16 @@ grid-template-rows: 277px 163px;
     line-height: 170%;
     color:#fff;
     background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    &:active{
+        transform: scale(0.95);
+        position: relative;
+        top: 2px;
+    }
 }
 .works__opinion{
     display: flex;
     flex-wrap: wrap;
+    align-items:flex-start;
 }
 .works__block{
     padding: 51px 32px;
@@ -104,6 +110,11 @@ grid-template-rows: 277px 163px;
     line-height: 170%;
     color:#fff;
     background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    &:active{
+        transform: scale(0.95);
+        position: relative;
+        top: 2px;
+    }
 }
 .works__image{
     position: relative;
