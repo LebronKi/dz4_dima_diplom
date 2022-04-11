@@ -97,21 +97,32 @@ color:#fff;
         margin: 0 35px 15px 0;
     }
    }
+   .header__text{
+       margin: 0;
+       padding: 50px 0 0 0;
+   }
    .header__title{
        font-size: 37px;
-       text-align: left;
+       text-align: center;
        line-height: 45px;
        margin: 0 0 20px 0;
+   }
+   .header__subtitle{
+       text-align: center;
+       margin: 0 auto;
+       padding: 20px;
    }
    .header__img-first{
        display: none;
 
    }
-   .header__img-sec{
-       max-width: 300px;
-       display: flex;
-       margin: 0 auto;
-       padding: 0 25px 0 0;
+   .header__img{
+       margin: 0%;
+       padding: 0%;
+   }
+   .header__img-sec,
+   .header__img-first{
+        display: none;
        &:hover{
         transform: none;
     }
@@ -129,23 +140,26 @@ color:#fff;
          margin: 0 35px 15px 0;
      }
     }
+    .header__text{
+        margin: 0;
+        padding: 50px 0 0 0;
+    }
     .header__title{
         font-size: 37px;
-        text-align: left;
+        text-align: center;
         line-height: 45px;
-        margin: 0 0 20px 0;
     }  
-    .header__img-first{
-        display: none;
-    }
-    .header__img-sec{
-        max-width: 300px;
-        display: flex;
+    .header__subtitle{
+        text-align: center;
+        padding:20px;
         margin: 0 auto;
-        padding: 0 25px 0 0;
+    }
+
+    .header__img-first,
+    .header__img-sec{    
+        display: none;
         &:hover{
             transform: none;
-            transition: none;
         }
     }
     .header__btn{
@@ -164,17 +178,26 @@ color:#fff;
     .header__img-first{
         display: none;
     }
+    .header__text{
+        margin: 0;
+    }
     .header__title{
+        text-align: center;
         font-size: 55px;
-        text-align: left;
         line-height: 75px;
         margin: 0 0 20px 0;
-    }  
+    }
+    .header__subtitle{
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .header__img{
+        margin: 0;
+    }
     .header__img-sec{
         max-width: 300px;
         display: flex;
         margin: 0 auto;
-        padding: 0 25px 0 0;
         &:hover{
             transform: none;
             transition: none;
